@@ -38,4 +38,5 @@ def eda_module(df):
     sns.pairplot(sampled_df[pairplot_columns], hue='Exited')
     plt.suptitle("Pairplot of Selected Features (Sample of 500 Records)", y=1.02)
     plt.show()
-#PRESS 1 for eda
+#PRESS 1 for eda analysis
+
